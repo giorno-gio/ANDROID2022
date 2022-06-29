@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txttitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CARRITO"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_marginTop="65sp"
+
+        />
+
+    
+    <EditText
+        android:id="@+id/edtArticulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txttitulo"
+        android:hint="articulo"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="20sp"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/edtValor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtArticulo"
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="10sp"
+        android:hint="valor"
+        android:inputType="number"
+        />
+    <EditText
+        android:id="@+id/edtCantidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtValor"
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="10sp"
+        android:hint="cantidad"
+        android:inputType="number"
+        />
+    <TextView
+        android:id="@+id/txtSolu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtCantidad"
+        android:layout_marginTop="30sp"
+        android:text="..."
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:id="@+id/btnProcesar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtSolu"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70sp"
+        android:text="procesar"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:onClick="onClick"
+        />
+</RelativeLayout>

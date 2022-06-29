@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SUMA"
+        android:gravity="center"
+        android:layout_marginTop="65sp"
+        android:textSize="25sp"
+        />
+
+    <EditText
+        android:id="@+id/edtNum1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtTitulo"
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="10sp"
+        android:hint="Ingresa el primer numero"
+        android:inputType="number"
+        />
+
+    <EditText
+        android:id="@+id/edtNum2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtNum1"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="10sp"
+        android:hint="Ingresa el segundo numero"
+        android:inputType="number"
+        />
+
+    <TextView
+        android:id="@+id/txtresultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtNum2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"
+        android:text="..."
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/btnsumar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtresultado"
+        android:text="sumar"
+        android:layout_marginTop="10sp"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClick"
+        />
+</RelativeLayout>

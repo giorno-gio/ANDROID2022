@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtoperacionesAritmeticas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="OPERACIONES ARITMETICAS"
+        android:textSize="30sp" />
+    <TextView
+        android:id="@+id/txtN1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="30sp"
+        android:layout_marginRight="10sp"
+        android:hint="Ingresa el primer numero:"
+        android:inputType="number"
+        android:layout_below="@id/txtoperacionesAritmeticas"
+        />
+    <TextView
+        android:id="@+id/txtN2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="30sp"
+        android:layout_marginRight="10sp"
+        android:hint="Ingresa el segundo numero:"
+        android:inputType="number"
+        android:layout_below="@id/txtN1"
+        />
+
+    <TextView
+        android:id="@+id/txtsolucion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="30sp"
+        android:layout_marginRight="10sp"
+        android:text="..."
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:inputType="number"
+        android:layout_below="@id/txtN2"
+        />
+
+    <Button
+        android:id="@+id/btnSuma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:layout_below="@id/txtsolucion"
+        android:layout_margin="60sp"
+        android:layout_alignParentLeft="true"
+        android:onClick="onClick"
+        />
+
+    <Button
+        android:id="@+id/btnResta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:layout_below="@id/txtsolucion"
+        android:layout_margin="60sp"
+        android:layout_alignParentRight="true"
+        android:onClick="onClick"
+        />
+
+    <Button
+        android:id="@+id/btnMulti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnSuma"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="60sp"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:onClick="onClick"
+        android:text="*" />
+
+    <Button
+        android:id="@+id/btnDivi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnSuma"
+        android:layout_alignParentRight="true"
+        android:layout_margin="60sp"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:onClick="onClick"
+        android:text="/" />
+
+    <Button
+        android:id="@+id/btnNmayor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnMulti"
+        android:layout_marginLeft="150sp"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:onClick="onClick"
+        android:text=">/<"
+
+        />
+</RelativeLayout>
