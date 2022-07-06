@@ -1,27 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity2">
 
 
     <ImageView
-        android:id="@+id/imgvRojo"
-        android:layout_width="wrap_content"
+        android:id="@+id/imgvAmarrillo"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/ic_circulor"
+        android:src="@drawable/ic_circuloa"
         android:layout_margin="25sp"
         />
     <Button
-        android:id="@+id/btnRojo"
+        android:id="@+id/btnAmarillo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/imgvRojo"
+        android:layout_below="@id/imgvAmarrillo"
         android:layout_margin="15sp"
-        android:backgroundTint="@android:color/holo_red_dark"
+        android:backgroundTint="@color/black"
         android:text="siguiente"
+        android:onClick="onClick"
         />
+
+
+
 
 </RelativeLayout>

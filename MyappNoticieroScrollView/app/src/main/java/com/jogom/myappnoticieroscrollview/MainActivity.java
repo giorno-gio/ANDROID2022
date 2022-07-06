@@ -1,4 +1,4 @@
-package com.jogom.myappmultiplesactivities;
+package com.jogom.myappnoticieroscrollview;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,25 +9,27 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-
     private Button button;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        button = findViewById(R.id.btnRojo);
-
+        button = findViewById(R.id.btnInfo);
         this.click();
     }
 
     private void click(){
-        Intent intent = new Intent(this, MainActivity3.class);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(intent);
-                finish();
+                actionActivity();
             }
         });
+    }
+
+    private void actionActivity(){
+        Intent intent = new Intent(this, MANoticiero.class);
+        startActivity(intent);
     }
 }

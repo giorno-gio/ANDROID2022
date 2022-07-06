@@ -4,24 +4,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-
+    tools:context=".MainActivity3">
 
     <ImageView
-        android:id="@+id/imgvRojo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ic_circulor"
-        android:layout_margin="25sp"
-        />
-    <Button
-        android:id="@+id/btnRojo"
+        android:id="@+id/imgsvVerde"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/imgvRojo"
+        android:src="@drawable/ic_circulov"
+        android:layout_margin="25sp"
+        />
+
+    <Button
+        android:id="@+id/btnVerde"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgsvVerde"
         android:layout_margin="15sp"
-        android:backgroundTint="@android:color/holo_red_dark"
+        android:backgroundTint="@color/black"
         android:text="siguiente"
+
         />
 
 </RelativeLayout>
