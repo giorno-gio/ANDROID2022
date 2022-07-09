@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">MyappPoemas</string>
+
+    <string name="titulor">
+        Poemas de amor :D
+    </string>
+
+    <string name="poemaA1">
+        Tú me pides\nun poema\ny yo te digo:\namor,\nsi tú lo eres.\nCada parte tuya\nes una estrofa\ny todo el conjunto,
+    </string>
+
+    <string name="poemaA2">
+        poesía.\nPara escribirte\nhabría que volver\na la poesía clásica,\nhabría que volver\ngimnastas a los versos.\nEscribirte\nen verso libre\nno es correcto\ny yo no puedo\nescribir\na la manera clásica.\nMejor déjame\nentonces plagiarte\ncon mis besos,\ndéjame sentir
+        toda la resonancia\nde la estrofa,\npues de todos modos,\namor,\nsi tú eres el poema,\nyo soy el poeta.
+    </string>
+    <string name="poemaA3">
+        Yo sé que hay un alma lejos de la mía.\nUn alma distante que también espera.\nQue busca mis huellas esquivas\nY que de mis pasos huye sin saberlo\nTal  vez han rozado sus líricas alas\nEl suave  temblor  de las mías.
+    </string>
+
+    <string name="tituloSati">
+        Poemas satiricos
+    </string>
+
+    <string name="poemaS1">
+        Érase un hombre a una nariz pegado,\n
+\nÉrase una nariz superlativa,
+\nÉrase una alquitara medio viva,
+\nÉrase un peje espada mal barbado;
+\nEra un reloj de sol mal encarado.
+\nÉrase un elefante boca arriba,
+\nÉrase una nariz sayón y escriba,
+\nUn Ovidio Nasón mal narigado.
+\nÉrase el espolón de una galera,
+\nÉrase una pirámide de Egipto,
+\nLos doce tribus de narices era;
+\nÉrase un naricísimo infinito,
+\nFrisón archinariz, caratulera,
+\nSabañón garrafal morado y frito.
+    </string>
+
+    <string name="poemaS2">
+        No querría que creyeseis que lo he compuesto para exhibición del ingenio a la manera que lo hace la cáfila de los oradores.\nPues éstos, según ya sabéis,\ncuando pronuncian un discurso que les ha costado treinta años elaborar,\ny que más de una vez es incluso ajeno,\njuran que lo han escrito,\ny aun que lo han dictado, en tres días, como por juego…
+
+    </string>
+    <string name="poemaS3">
+        ¡Qué cambiado en su persona está Patricio,
+\ndesde el día que lo nombraron Presidente!,
+\nno se porta cariñoso con la gente
+\nque le diera tan jugoso beneficio.
+\nY es que nunca había tenido tal oficio,
+\npues, hoy, viste un traje negro, americano;
+\npareciera que se olvida que es humano,
+\nque la gloria de su puesto será corta,
+\n¡mas parece que al imbécil no le importa,
+\npavoneándose en las calles tan ufano!:
+\n¡Miren, miren!, ¡qué soberbio se comporta!
+\nNo es el mismo, cuyo roce era tan grato,
+\n¡hoy es tosco y desabrido en cualquier gesto!,
+\n¡pero ayer fue un adorable candidato
+    </string>
+
+    <string name="tituloOda">
+        Poemas oda
+    </string>
+    <string name="poemaOd1">
+
+        Ni la sutil mañana o la maciza
+\nnoche que por mis pies sube a mis ojos
+\nni las trompetas claras del Estío
+\nni el duro Invierno nivelador
+\nque hace a la Primavera rastacuera
+\nni el Otoño que ahonda su estupor
+\nen estoico morado y amarillo.
+ \n¡Oh!, ramos transparentes del afán
+\ny de la sed sin término y sin forma
+\nsólida luz entre la eterna niebla
+\ntiempo mío siempre sin experiencia
+\ncolmado de la flora de los polos
+\ny pájaros de cantos y alas sólo.
+\nTodo se ahonda dentro de ti mismo
+\nmental —fruto primero flor después—
+\narrecifes de liras y heroísmos
+\npor mi sangre y mi sueño a la deriva.
+\n¡Corazón del mundo al fin encallado
+\ndentro de mí! Isla fuera del tiempo
+\mazar seguro en que me encuentro
+\nsolo con mi yo más yo que yo mismo
+\ncierto como los números tranquilos
+\nsí soledad Robinson sin retorno.
+
+    </string>
+    <string name="poemaOd2">
+        he bebido, hasta estar ebrio, tus poemas:
+\nidilios con las cosas eternas
+\ny por las eternidades de un segundo,
+\ncanciones siderales,
+\ninfinito,
+\naproximación por decimales
+\nde tu alma ahogada en el canto entero.
+\nNo eras, como pensabas,
+\nla bengala de colores quemándose
+\npara hacer señales que nadie respondería nunca:
+\nalguien enterrará a la Tierra con tu poema.
+    </string>
+    <string name="poemaOd3">
+        Solitario,
+\nAl salir de la fiesta,
+\nPor las calles de París en silencio.
+\nEn mi lecho me habría revolcado de insomnio:
+\nMe aburro dormido
+\nY me gusta vivir las auroras.
+\n¡A orillas del Sena, en un puente,
+\nO en cualquier bulevard,
+\nQuiero que el sol bese mi frente
+\nY me encuentre cantando!
+    </string>
+</resources>

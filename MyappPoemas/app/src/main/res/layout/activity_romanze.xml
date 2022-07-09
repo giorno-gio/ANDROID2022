@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Romanze">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulor"
+        android:textSize="35sp"
+        android:layout_marginTop="15sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="15sp">
+            
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="POEMA 1"
+                android:textSize="25sp"
+                android:textStyle="italic"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/poemaA1"
+                android:textSize="15sp"
+                android:textIsSelectable="true"
+                android:justificationMode="inter_word"
+                android:layout_marginBottom="10sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="POEMA 2"
+                android:textSize="25sp"
+                android:textStyle="italic"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/poemaA2"
+                android:textSize="15sp"
+                android:textIsSelectable="true"
+                android:justificationMode="inter_word"
+                android:layout_marginBottom="10sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="POEMA 3"
+                android:textSize="25sp"
+                android:textStyle="italic"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/poemaA3"
+                android:textSize="15sp"
+                android:textIsSelectable="true"
+                android:justificationMode="inter_word"
+                />
+            <Button
+                android:id="@+id/btnSalirR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="SALIR"
+                />
+        </LinearLayout>
+        </ScrollView>
+
+</LinearLayout>
