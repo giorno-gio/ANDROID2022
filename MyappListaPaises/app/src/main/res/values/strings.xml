@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">MyappListaPaises</string>
+    <string name="pMexico">
+         Mexico tiene 126.014.024 personas
+    </string>
+
+    <string name="pBrazil">
+        Brazil tiene 213.993.441 personas
+    </string>
+
+    <string name="pGuatemala">
+        Guatemala tiene 17.109.746 personas
+    </string>
+
+    <string name="pColombia">
+        Colombia tiene 51.265.841 personas
+    </string>
+
+    <string name="pArgentina">
+        Argentina tiene 45.808.747 personas
+    </string>
+    <string name="pItalia">
+        Italia tiene 58.983.122 personas
+    </string>
+    <string name="pEspaña">
+        España tiene 47.432.805 personas
+    </string>
+
+    <string name="pFrancia">
+         Francia tiene 67.842.582 personas
+    </string>
+    <string name="pCR">
+        Costa Rica tiene 5.180.000 personas
+    </string>
+    <string name="pPortugal">
+        Portugal tiene 10.352.042 portugal
+    </string>
+</resources>
