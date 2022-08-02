@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MADatosCalendario">
+
+
+    <ImageView
+        android:layout_width="150sp"
+        android:layout_height="250sp"
+        android:src="@drawable/ic_datoscal"
+        android:layout_gravity="center"
+        />
+    
+    <TextView
+        android:id="@+id/txtAn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="..."
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/txtDias"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="..."
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TIENE 12 MESES"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TIENE 52.14 SEMANAS"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"/>
+
+
+
+        
+
+</LinearLayout>
