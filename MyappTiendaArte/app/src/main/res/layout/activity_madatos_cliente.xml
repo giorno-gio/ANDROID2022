@@ -1,9 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MADatosCliente">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView
+        android:id="@+id/imgPintura"
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"
+        android:src="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/txtNombrePintura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgPintura"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25sp"
+        android:text="NOMBRE"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtPrecioPintura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtNombrePintura"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:text="PRECIO"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtPrecioPintura"
+        android:layout_marginLeft="10sp"
+        android:hint="Ingresa tu nombre"
+        android:inputType="text"
+        android:textSize="25sp" />
+    <EditText
+        android:id="@+id/edtApelllido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtNombre"
+        android:hint="Ingresa tu apellido"
+        android:textSize="25sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="10sp"
+        android:inputType="text"/>
+    <EditText
+        android:id="@+id/edtNit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtApelllido"
+        android:hint="Ingresa tu nit"
+        android:textSize="25sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="10sp"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/btnComprar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtNit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30sp"
+        android:backgroundTint="#42D519"
+        android:text="COMPRAR"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnCancelar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnComprar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"
+        android:text="CANCELAR"
+        android:textSize="20sp"
+        android:backgroundTint="#FB0B0B"
+        />
+
+</RelativeLayout>

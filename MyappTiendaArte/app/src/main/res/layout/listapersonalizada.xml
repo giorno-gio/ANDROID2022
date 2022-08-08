@@ -1,6 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-             android:layout_width="match_parent"
-             android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imgListaIcono"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginEnd="20sp"
+        android:layout_marginBottom="20sp"
+        android:src="@drawable/ic_iarte" />
+
+   <LinearLayout
+       android:id="@+id/llTipoPintura"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:layout_toRightOf="@id/imgListaIcono"
+       android:layout_marginTop="35sp"
+       >
+
+       <TextView
+           android:id="@+id/txtcategoriaPintura"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="CATEGORIA PINTURA"
+           android:textSize="20sp"
+           android:textStyle="bold"
+           android:textColor="#1B51B5"
+           />
+
+
+   </LinearLayout>
 
 </RelativeLayout>

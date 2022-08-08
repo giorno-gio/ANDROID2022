@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">MyappTiendaArte</string>
+    <string name="EntierroOrnans">
+        es uno de los cuadros más conocidos del pintor francés Gustave Courbet. Está realizado al óleo sobre tela. Mide 315 cm de alto y 668 cm de ancho. Fue pintado en 1849, encontrándose actualmente en el Museo de Orsay, de París, Francia.
+    </string>
+    <string name="Elangelus">
+    Es un cuadro del pintor realista francés Jean F. Millet. Data del período 1857-1859 y se trata de un óleo sobre lienzo que mide 66 cm de ancho por 55,5 cm de alto. Se conserva en el Museo de Orsay de París, Francia.
+    </string>
+
+    <string name="Olympia">
+        Olympia es un cuadro realizado por el pintor francés Édouard Manet en 1863. Mide 130,5 cm de altura y 190 cm de ancho. Manet comenzó a trabajar en él en 1863 para presentarlo en el Salon des Refusés (Salón de los Rechazados) de ese mismo año.
+    </string>
+
 </resources>

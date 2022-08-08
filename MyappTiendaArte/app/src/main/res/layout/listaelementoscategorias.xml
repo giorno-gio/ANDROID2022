@@ -1,6 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-             android:layout_width="match_parent"
-             android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/lldescripcionElemento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10sp"
+            >
+
+            <ImageView
+                android:id="@+id/imgElemento"
+                android:layout_width="150sp"
+                android:layout_height="150sp"
+                android:src="@drawable/ic_launcher_background"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:id="@+id/txtNombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="NOMBRE"
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/txtPrecio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="PRECIO"
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/txtDescripcion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="DESCRIPCION"
+                android:textSize="20sp"/>
+
+            <Button
+                android:id="@+id/btnAdquirir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="ADQUIRIR"
+                android:textSize="20sp"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
