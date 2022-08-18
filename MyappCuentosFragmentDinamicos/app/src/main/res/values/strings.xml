@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">MyappCuentosFragmentDinamicos</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="Blancanieves">
+        Un día de invierno la Reina miraba cómo caían los copos de nieve mientras cosía. Le cautivaron de tal forma que se despistó y se pinchó en un dedo dejando caer tres gotas de la sangre más roja sobre la nieve. En ese momento pensó:
+
+- Cómo desearía tener una hija así, blanca como la nieve, sonrosada como la sangre y de cabellos negros como el ébano.
+
+Al cabo de un tiempo su deseo se cumplió y dio a luz a una niña bellísima, blanca como la nieve, sonrosada como la sangre y con los cabellos como el ébano. De nombre le pusieron Blancanieves, aunque su nacimiento supuso la muerte de su madre.
+    </string>
+
+    <string name="CaperucitaRoja">
+        Había una vez una dulce niña que quería mucho a su madre y a su abuela. Les ayudaba en todo lo que podía y como era tan buena el día de su cumpleaños su abuela le regaló una caperuza roja. Como le gustaba tanto e iba con ella a todas partes, pronto todos empezaron a llamarla Caperucita roja.
+
+Un día la abuela de Caperucita, que vivía en el bosque, enfermó y la madre de Caperucita le pidió que le llevara una cesta con una torta y un tarro de mantequilla. Caperucita aceptó encantada.
+
+- Ten mucho cuidado Caperucita, y no te entretengas en el bosque.
+- ¡Sí mamá!
+
+La niña caminaba tranquilamente por el bosque cuando el lobo la vio y se acercó a ella.
+    </string>
+
+    <string name="Cenicienta">
+        rase una vez un hombre bueno que tuvo la desgracia de quedar viudo al poco tiempo de haberse casado. Años después conoció a una mujer muy mala y arrogante, pero que pese a eso, logró enamorarle.
+
+Ambos se casaron y se fueron a vivir con sus hijas. La mujer tenía dos hijas tan arrogantes como ella, mientras que el hombre tenía una única hija dulce, buena y hermosa como ninguna otra.
+    </string>
+
+    <string name="PeterPan">
+        Hace tiempo, allá por 1880, vivía en la ciudad de Londres la familia Darling. Estaba formada por el señor y la señora Darling y sus hijos: Wendy, Michael y John. Sin olvidarnos de Nana, por supuesto, el perro niñera.
+
+Vivían felices y tranquilos hasta que Peter Pan llegó a sus vidas. Todo comenzó la noche en que Nana tenía el día libre y la señora Darling se quedó a cargo de sus hijos. Cuando todos, incluida ella, estuvieron dormidos el muchacho entró por la ventana. Pero entonces ella se despertó y se asustó tanto al verle que lanzó un fuerte grito.
+    </string>
+    <string name="gatoConBotas">
+        Había una vez un molinero pobre que cuando murió sólo pudo dejar a sus hijos por herencia el molino, un asno y un gato. En el reparto el molino fue para el mayor, el asno para el segundo y el gato para el más pequeño. Éste último se lamentó de su suerte en cuanto supo cuál era su parte.
+
+- ¿Y ahora qué haré? Mis hermanos trabajarán juntos y harán fortuna, pero yo sólo tengo un pobre gato.
+
+El gato, que no andaba muy lejos, le contestó:
+
+- No os preocupéis mi señor, estoy seguro de que os seré más valioso de lo que pensáis.
+    </string>
+</resources>
