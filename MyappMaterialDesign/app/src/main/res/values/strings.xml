@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyappMaterialDesign</string>
+
+    <string name="title">
+        God of War: Ragnarok
+    </string>
+    <string name="supporting_text">
+        Kratos y Atreus deben viajar a cada uno de los Nuevo Reinos en busca de respuestas mientras las fuerzas asgardianas se preparan para la batalla profetizada que supondrá el fin del mundo.
+    </string>
+</resources>
