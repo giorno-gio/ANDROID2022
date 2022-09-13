@@ -17,8 +17,16 @@
         />
 
     <ImageView
+        android:layout_width="200sp"
+        android:layout_height="200sp"
+        android:src="@drawable/ic_calendar"
+        android:layout_gravity="center"
+        android:layout_margin="10sp"
+        />
+    <ListView
+        android:id="@+id/listMeses"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src=""
+        android:layout_margin="10sp"/>
 
 </LinearLayout>

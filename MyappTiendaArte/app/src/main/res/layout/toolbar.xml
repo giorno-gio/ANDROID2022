@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
-             android:layout_width="match_parent"
-             android:layout_height="match_parent">
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="30sp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#8857CD"
+    android:elevation="15sp"
+    android:theme="@style/ThemeOverlay.AppCompat.DayNight.ActionBar"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.ActionBar"
+    app:titleTextColor="#FF74A3"
+    >
 
-</Toolbar>
+</androidx.appcompat.widget.Toolbar>

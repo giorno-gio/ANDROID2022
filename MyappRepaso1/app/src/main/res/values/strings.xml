@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyappRepaso1</string>
+
+    <string name="textoSuma">
+        La suma es una de las operaciones matemáticas más antiguas y básicas que se conocen.\n
+        Se piensa que el ser humano del neolítico ya manejaba los principios matemáticos elementales, entre los que necesariamente estarían la adición y la resta, dado que estas operaciones son fáciles de evidenciar de cara a las provisiones agrícolas que aumentaban y disminuían conforme a la época del año.
+    </string>
+</resources>

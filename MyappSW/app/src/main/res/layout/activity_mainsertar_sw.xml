@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MAInsertarSW"
+    android:orientation="vertical">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="INSERTAR PRODUCTOS"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_margin="15sp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:hint="Ingresar Nombre del producto"
+        android:textColorHint="#C3C3C3"
+        app:helperTextEnabled="false"
+        app:endIconMode="clear_text"
+        app:boxBackgroundMode="outline"
+        app:boxCornerRadiusTopEnd="16sp"
+        app:boxCornerRadiusBottomEnd="16sp"
+        app:boxCornerRadiusTopStart="16sp"
+        app:boxCornerRadiusBottomStart="16sp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tfmNombreInsertar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:hint="Ingresar Precio Unitario del Producto"
+        android:textColorHint="#C3C3C3"
+        app:helperTextEnabled="false"
+        app:endIconMode="clear_text"
+        app:boxBackgroundMode="outline"
+        app:boxCornerRadiusTopEnd="16sp"
+        app:boxCornerRadiusBottomEnd="16sp"
+        app:boxCornerRadiusTopStart="16sp"
+        app:boxCornerRadiusBottomStart="16sp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tfmPrecioUInsertar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:hint="Ingresar Fecha de Ingreso del Producto"
+        android:textColorHint="#C3C3C3"
+        app:helperTextEnabled="false"
+        app:endIconMode="clear_text"
+        app:boxBackgroundMode="outline"
+        app:boxCornerRadiusTopEnd="16sp"
+        app:boxCornerRadiusBottomEnd="16sp"
+        app:boxCornerRadiusTopStart="16sp"
+        app:boxCornerRadiusBottomStart="16sp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tfmFechaIngInsertar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:hint="Ingresar Peso del producto"
+        android:textColorHint="#C3C3C3"
+        app:helperTextEnabled="false"
+        app:endIconMode="clear_text"
+        app:boxBackgroundMode="outline"
+        app:boxCornerRadiusTopEnd="16sp"
+        app:boxCornerRadiusBottomEnd="16sp"
+        app:boxCornerRadiusTopStart="16sp"
+        app:boxCornerRadiusBottomStart="16sp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tfmPesoInsertar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:hint="Ingresar Existencias del producto"
+        android:textColorHint="#C3C3C3"
+        app:helperTextEnabled="false"
+        app:endIconMode="clear_text"
+        app:boxBackgroundMode="outline"
+        app:boxCornerRadiusTopEnd="16sp"
+        app:boxCornerRadiusBottomEnd="16sp"
+        app:boxCornerRadiusTopStart="16sp"
+        app:boxCornerRadiusBottomStart="16sp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tfmExistenciasInsertar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnmInsertarProducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:text="REGISTRAR PRODUCTO"
+        app:icon="@drawable/ic_add"
+        />
+
+
+</LinearLayout>

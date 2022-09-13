@@ -1,9 +1,14 @@
 package com.jogom.myapptiendaarte;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
@@ -16,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
     private ListView listViewcategoriaLista;
     private TextView textViewCategorias;
+    private Toolbar toolbar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,9 +41,27 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        if(getIntent().getBooleanExtra("EXIT", false)){
-            finish();
+            toolbar = findViewById(R.id.toolbar);
+            setSupportActionBar(toolbar);
+            getSupportActionBar().setTitle("TIENDA GRIEGA");
+
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater menuInflater =getMenuInflater();
+        menuInflater.inflate(R.menu.menu_item, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        switch (item.getItemId()){
+            case  R.id.item1:
+                Toast.makeText(this, "Tienda donde puedes comprar arte", Toast.LENGTH_SHORT).show();
+                break;
         }
+        return super.onOptionsItemSelected(item);
     }
 
     private ArrayList<String> categoriasPintura(){

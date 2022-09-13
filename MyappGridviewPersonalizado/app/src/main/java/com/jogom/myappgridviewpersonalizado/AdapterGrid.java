@@ -26,7 +26,7 @@ public class AdapterGrid extends BaseAdapter {
 
     @Override
     public int getCount() {
-        return this.colores.size();
+        return this.nombreColores.size();
     }
 
     @Override

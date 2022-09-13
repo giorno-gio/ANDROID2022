@@ -1,3 +1,122 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Pelicula 1 -->
+    <string name="nombreP1">
+    Deadpool 2
+</string>
+    <string name="duracionP1">
+	2h 0m
+</string>
+    <string name="sinopsisP1">
+        El mercenario Deadpool conoce a Russell, un mutante adolescente enfadado que vive en un orfanato. Cuando Russell se convierte en el objetivo de Cable -un soldado genéticamente mejorado del futuro- Deadpool se da cuenta de que necesitará ayuda para salvar al chico de un enemigo tan superior. Pronto une fuerzas con Bedlam, Shatterstar, Domino y otros poderosos mutantes para proteger al joven Russell de Cable y su avanzado armamento.
+    </string>
+    <string name="directoresactP1">
+    Ryan Reynolds\nJosh Brolin\nBrianna Hildebrand
+</string>
+    <string name="puntuacionP1">
+        8
+    </string>
+    <string name="recaudacionP1">
+        	$324.3M
+    </string>
+    <string name="boletoP1">
+        Q30.00
+    </string>
+
+    <!-- Pelicula 2 -->
+    <string name="nombreP2">
+        Godzilla: King of the Monsters
+    </string>
+
+    <string name="duracionP2">
+        2h 12m
+    </string>
+    <string name="sinopsisP2">
+        Los miembros de la agencia criptozoológica Monarch se enfrentan a una batería de monstruos de tamaño divino, incluido el poderoso Godzilla, que choca con Mothra, Rodan y su némesis definitiva, el Rey Ghidorah de tres cabezas.
+        \nCuando estas antiguas superespecies -que se creían meros mitos- resurgen, todos compiten por la supremacía, dejando la existencia de la humanidad en el aire.
+    </string>
+    <string name="directoresaActP2">
+        Ken Watanabe\nKyle Chandler\nBradley Whitford
+    </string>
+
+    <string name="puntuacionP2">
+        7
+    </string>
+    <string name="recaudacionP2">
+        	$110.5M
+    </string>
+    <string name="boletoP2">
+        Q45.00
+    </string>
+    <!-- Pelicula 3 -->
+    <string name="nombreP3">
+        JUJUTSU KAISEN 0: THE MOVIE
+    </string>
+    <string name="duracionP3">
+        1h 45m
+    </string>
+    <string name="sinopsisP3">
+        Cuando eran ninos, Rika Orimoto murio en un accidente de tráfico ante los ojos de su amigo íntimo, Yuta Okkotsu. "Es una promesa. Cuando ambos crezcamos, nos casaremos". Rika se convirtió en una aparición, y Yuta anhelaba su propia muerte tras sufrir su maldición, pero el mayor hechicero de Jujutsu, Satoru Gojo, le acogió en el instituto Jujutsu.
+        \nAlli Yuta conoce a sus compañeros de clase, Maki Zenin, Toge Inumaki y Panda, y finalmente encuentra su propia determinación. "¡Quiero tener la confianza de decir que está bien que esté vivo!" "Mientras esté en el instituto Jujutsu, romperé la maldición de Rika-chan".
+    </string>
+    <string name="directoresActP3">
+        Allegra Clark\nAnairis Quinones\nXander Mobus
+
+    </string>
+    <string name="puntuacionP3">
+        9
+    </string>
+    <string name="recaudacionP3">
+    $190.3M
+    </string>
+    <string name="boletoP3">
+        Q50.00
+    </string>
+    <!-- Pelicula 4 -->
+    <string name="nombreP4">
+        Jhon Wick 3: Parabelum
+    </string>
+    <string name="duracionP4">
+        2h 11m
+    </string>
+    <string name="sinopsisP4">
+        Después de asesinar a un miembro de la Mesa Alta, el oscuro gremio internacional de asesinos, el legendario asesino a sueldo John Wick se ve privado de los servicios de protección de la organización.
+        \nAhora, con una recompensa de 14 millones de dólares por su cabeza, Wick deberá abrirse paso por las calles de Nueva York mientras se convierte en el objetivo de los asesinos más despiadados del mundo.
+
+    </string>
+    <string name="directoresActoresP4">
+        Keanu Reeves\nHalle Berry\nLaurence Fishburne
+    </string>
+    <string name="punturacionP4">
+        8
+    </string>
+    <string name="recaudacionP4">
+        $171.0M
+    </string>
+    <string name="boletoP4">
+        Q35.00
+    </string>
+    <!-- Pelicula 5 -->
+    <string name="nombreP5">
+        Thor: Ragnarok
+    </string>
+    <string name="duracionP5">
+        2h 10m
+    </string>
+    <string name="sinopsisp5">
+       Encarcelado en el otro lado del universo, el poderoso Thor se encuentra en un mortal concurso de gladiadores que lo enfrenta a Hulk, su antiguo aliado y compañero de los Vengadores.
+        \nLa búsqueda de Thor por la supervivencia le lleva a una carrera contra el tiempo para evitar que la todopoderosa Hela destruya su mundo natal y la civilización asgardiana.
+    </string>
+    <string name="directoresActoresp5">
+        Chris Hemsworth\nTom Hiddleston\nIdris Eba
+    </string>
+    <string name="puntuacionP5">
+        6
+    </string>
+    <string name="recaudacionP5">
+        $315.0M
+    </string>
+    <string name="boletoP5">
+        Q50.00
+    </string>
 </resources>

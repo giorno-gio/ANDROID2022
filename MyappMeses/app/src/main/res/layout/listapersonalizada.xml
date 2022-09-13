@@ -1,6 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-             android:layout_width="match_parent"
-             android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <ImageView
+        android:id="@+id/imgLista"
+        android:layout_width="55sp"
+        android:layout_height="55sp"
+        android:src="@drawable/ic_calendarlist"
+        android:layout_margin="25sp"
+        />
+
+    <LinearLayout
+        android:id="@+id/llFecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_toRightOf="@id/imgLista"
+        android:layout_margin="10sp"
+        >
+
+        <TextView
+            android:id="@+id/txtNumeroMes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#1B51B5"
+
+            />
+        <TextView
+            android:id="@+id/txtNomMes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enero"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#1B51B5"
+            />
+        <TextView
+            android:id="@+id/txtAnio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2022"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#1B51B5"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnVer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="35sp"
+        android:text="ver"
+        android:textSize="20sp"
+        android:backgroundTint="@color/teal_200"
+        android:textStyle="bold" />
+
 
 </RelativeLayout>
